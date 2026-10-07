@@ -1,0 +1,31 @@
+{
+  "model": {
+    "representation": "combined",
+    "joints": 24,
+    "hidden_dim": 432,
+    "layers": 12,
+    "heads": 12,
+    "expansion": 3.0,
+    "dropout": 0.1,
+    "rotary_base": 10000.0,
+    "text_model": "t5-large",
+    "text_dim": 1024,
+    "max_text_tokens": 128
+  },
+  "training": {
+    "epochs": 500,
+    "global_batch_size": 512,
+    "window": 320,
+    "learning_rate": 0.00005,
+    "weight_decay": 0.005,
+    "betas": [0.9, 0.999],
+    "ema_decay": 0.9995,
+    "max_grad_norm": 1.0,
+    "drop_both": 0.1,
+    "drop_text": 0.1,
+    "workers": 4,
+    "seed": 42,
+    "checkpoint_interval": 100,
+    "time_epsilon": 0.001
+  }
+}

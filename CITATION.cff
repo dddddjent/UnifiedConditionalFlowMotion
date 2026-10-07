@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using this reimplementation."
+title: "Unified Motion: conditional flow reimplementation"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Li
+    given-names: Junlin
+  - family-names: Song
+    given-names: Xinhao
+  - family-names: Wang
+    given-names: Siqi
+  - family-names: Huang
+    given-names: Haibin
+  - family-names: Zhao
+    given-names: Yili
+preferred-citation:
+  type: article
+  title: "A Unified Conditional Flow for Motion Generation, Editing, and Intra-Structural Retargeting"
+  year: 2026
+  journal: "arXiv"
+  identifiers:
+    - type: other
+      value: "arXiv:2604.13427"
+  url: "https://arxiv.org/abs/2604.13427"
+  authors:
+    - family-names: Li
+      given-names: Junlin
+    - family-names: Song
+      given-names: Xinhao
+    - family-names: Wang
+      given-names: Siqi
+    - family-names: Huang
+      given-names: Haibin
+    - family-names: Zhao
+      given-names: Yili
